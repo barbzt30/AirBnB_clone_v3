@@ -1,4 +1,6 @@
-sk application  initialization for aibrnb clone
+#!/usr/bin/python3
+
+""" Flask application  initialization for aibrnb clone
 """
 from flask import Flask, jsonify, make_response, render_template, url_for
 from models import storage
